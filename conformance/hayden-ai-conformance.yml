@@ -1,0 +1,80 @@
+generated: '2026-08-04'
+method: searched
+source: https://hayden.ai/compliance
+docs: https://hayden.ai/compliance
+note: >-
+  Hayden AI ships hardware (AI camera, edge compute box, antenna) as well as a
+  SaaS data portal, so its published compliance surface is dominated by
+  regulatory declarations of conformity for the devices rather than by API or
+  cloud-security standards. There is no OpenAPI, OAuth surface or public API
+  from which to derive protocol-level conformance, so nothing below is derived.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: >-
+    Company blog post "Hayden AI achieves SOC 2 Type II security certification"
+    states the certification was achieved for a second consecutive year.
+  source: https://hayden.ai/blog/hayden-ai-achieves-soc-2-type-ii-security-certification
+- id: gdpr
+  conforms: true
+  evidence: >-
+    Privacy policy names "General Data Protection Regulation (EU) 2016/679" and
+    UK GDPR, and documents data-subject rights and a privacy contact
+    (privacy@hayden.ai).
+  source: https://hayden.ai/privacy-policy
+- id: ccpa-cpra
+  conforms: true
+  evidence: >-
+    Privacy policy names the "California Consumer Privacy Act, as amended by the
+    California Privacy Rights Act".
+  source: https://hayden.ai/privacy-policy
+- id: eu-us-data-privacy-framework
+  conforms: true
+  evidence: >-
+    Privacy policy sections (H) and (Q) describe participation in the EU-US and
+    Swiss-US Data Privacy Frameworks, including the DPF complaint route.
+  source: https://hayden.ai/privacy-policy
+- id: fcc-sdoc
+  conforms: true
+  evidence: >-
+    FCC Supplier's Declaration of Conformity published for models iNX31 and for
+    CBOX2 / LCAM3 / CCAM3 / IRFL3 / antenna.
+  source: https://hayden.ai/compliance
+- id: eu-declaration-of-conformity
+  conforms: true
+  evidence: >-
+    EU Declarations of Conformity published for models iNX31 and CBOX2 / LCAM2 /
+    LCAM3 / CCAM2 / CCAM3 / IRFL3 / antenna.
+  source: https://hayden.ai/compliance
+- id: eu-rohs-reach
+  conforms: true
+  evidence: EU RoHS & REACH Declaration of Conformity published.
+  source: https://hayden.ai/compliance
+- id: weee
+  conforms: true
+  evidence: WEEE Declaration of Conformity published.
+  source: https://hayden.ai/compliance
+- id: acma-sdoc
+  conforms: true
+  evidence: ACMA Supplier's Declaration of Conformity published (Australia).
+  source: https://hayden.ai/compliance
+- id: ised-canada
+  conforms: true
+  evidence: Industry Canada / ISED statement published for CBOX2, LCAM2, CCAM2, antenna.
+  source: https://hayden.ai/compliance
+- id: california-prop-65
+  conforms: true
+  evidence: California Proposition 65 notice published.
+  source: https://hayden.ai/compliance
+- id: iso-27001
+  conforms: false
+  evidence: not claimed on the compliance page or in the blog
+- id: fedramp
+  conforms: false
+  evidence: not claimed
+- id: oauth2
+  conforms: false
+  evidence: no public API or OAuth surface
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API contract

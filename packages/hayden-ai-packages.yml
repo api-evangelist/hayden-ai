@@ -1,0 +1,21 @@
+generated: '2026-08-04'
+method: searched
+source: public package-registry and GitHub searches, 2026-08-04
+packages: []
+note: >-
+  No first-party Hayden AI client library was found. Hayden AI runs no public
+  developer program, so there is no SDK to publish. The company's GitHub
+  organization (github.com/HaydenAI, created 2017-06-09, San Francisco,
+  hayden.ai) exists but has zero public repositories; a second empty
+  organization (github.com/Hayden-ai, created 2020-03-22) also has none.
+registries_searched:
+- registry: npm
+  queries: [hayden-ai, haydenai, '@hayden-ai/sdk']
+  result: none
+- registry: pypi
+  queries: [hayden-ai, haydenai]
+  result: none
+- registry: github
+  queries: ['hayden-ai in:name,description']
+  result: no first-party repositories (only unrelated personal projects)
+official_sdk_count: 0

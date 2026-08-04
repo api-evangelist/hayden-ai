@@ -1,0 +1,72 @@
+generated: '2026-08-04'
+method: probed
+source: live GET of /.well-known/* on the Hayden AI web host
+host: https://hayden.ai
+note: >-
+  Hayden AI publishes no API host, developer portal or docs host (no DNS for
+  api./docs./developer./developers./app./portal./status./trust./mcp..hayden.ai),
+  so the company website is the only host with a probeable well-known surface.
+  Every path below returned the site's HTML 404 page (Next.js/Vercel catch-all),
+  i.e. no well-known document is published.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+  content_type: text/html
+- path: /.well-known/openid-configuration
+  status: 404
+  content_type: text/html
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  content_type: text/html
+- path: /.well-known/oauth-protected-resource
+  status: 404
+  content_type: text/html
+- path: /.well-known/api-catalog
+  status: 404
+  content_type: text/html
+- path: /.well-known/ai-plugin.json
+  status: 404
+  content_type: text/html
+- path: /.well-known/agent-card.json
+  status: 404
+  content_type: text/html
+- path: /.well-known/agent.json
+  status: 404
+  content_type: text/html
+- path: /security.txt
+  status: 404
+  content_type: text/html
+other_probes:
+- path: /robots.txt
+  status: 200
+  content_type: text/plain
+- path: /sitemap.xml
+  status: 200
+  content_type: application/xml
+- path: /llms.txt
+  status: 404
+  content_type: text/html
+- path: /openapi.json
+  status: 404
+  content_type: text/html
+- path: /swagger.json
+  status: 404
+  content_type: text/html
+- path: /api-docs
+  status: 404
+  content_type: text/html
+x-evidence:
+  fetched: '2026-08-04'
+  hosts_probed:
+  - hayden.ai
+  - www.hayden.ai
+  subdomains_without_dns:
+  - api.hayden.ai
+  - docs.hayden.ai
+  - developer.hayden.ai
+  - developers.hayden.ai
+  - app.hayden.ai
+  - portal.hayden.ai
+  - status.hayden.ai
+  - trust.hayden.ai
+  - mcp.hayden.ai

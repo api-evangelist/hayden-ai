@@ -1,17 +1,36 @@
 aid: hayden-ai
 name: Hayden AI
-description: 'Hayden AI is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Hayden AI is a San Francisco based artificial intelligence and spatial
+  analytics company that builds a mobile perception platform for public transit agencies
+  and city governments. The company mounts a purpose-built AI camera and edge compute
+  box on transit buses and other municipal fleet vehicles, then uses computer vision
+  to detect bus lane, bus stop, bike lane, double parking and tram blocking violations
+  in real time. Detections are reviewed by authorized agency staff in the Hayden AI
+  Data Portal, which also carries traffic rule management, city asset monitoring and
+  aggregated traffic analytics, and which hands verified evidence off to an agency''s
+  existing violations processing system for citation issuance. Hayden AI publishes
+  no public developer program, API documentation, SDK or machine-readable API contract;
+  the platform is sold and integrated directly with transit agencies and municipalities.'
+image: https://cdn.sanity.io/images/q6pmksqm/production/bdddb692160a09d5666ec6c13fbfd79f55e2419d-1200x630.png
 url: https://raw.githubusercontent.com/api-evangelist/hayden-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profile
+x-tier-reason: enriched
 specificationVersion: '0.20'
 created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Artificial Intelligence
+- Computer Vision
+- Transportation
+- Transit
+- Smart Cities
+- Government
+- Traffic Enforcement
+- Spatial Analytics
+- Mobility
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hayden-ai-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/hayden-ai_stock/
+  url: https://hayden.ai/
+- type: Blog
+  url: https://hayden.ai/blog
+- type: Support
+  url: https://hayden.ai/contact
+- type: PrivacyPolicy
+  url: https://hayden.ai/privacy-policy
+- type: TermsOfService
+  url: https://hayden.ai/terms-of-use
+- type: Compliance
+  url: https://hayden.ai/compliance
+- type: GitHubOrganization
+  url: https://github.com/HaydenAI
+- type: WellKnown
+  url: well-known/hayden-ai-well-known.yml
+- type: Conformance
+  url: conformance/hayden-ai-conformance.yml
+- type: LLMsTxt
+  url: llms/hayden-ai-llms.txt
+- type: Packages
+  url: packages/hayden-ai-packages.yml
+x-enrichment:
+  date: '2026-08-04'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

@@ -1,0 +1,55 @@
+# Hayden AI
+
+> Hayden AI is a San Francisco based artificial intelligence and spatial analytics company. It mounts a purpose-built AI camera and edge compute box on transit buses and other municipal fleet vehicles and uses computer vision to detect bus lane, bus stop, bike lane, double parking and tram blocking violations in real time, for review by authorized transit agencies in the Hayden AI Data Portal.
+
+## API surface
+
+Hayden AI publishes **no public API**. As of 2026-08-04 there is no developer portal, no API reference, no OpenAPI/AsyncAPI/GraphQL contract, no SDK, no MCP server and no A2A agent card. The Data Portal is a customer-only application delivered under contract to transit agencies and municipalities, and it hands verified violation evidence to an agency's existing violations processing system through private integration rather than a documented public API.
+
+## Platform
+
+- [The Platform](https://hayden.ai/platform): overview of the camera, edge compute and data portal stack
+- [AI Camera](https://hayden.ai/platform/camera): the vehicle-mounted perception hardware
+- [Data Portal](https://hayden.ai/platform/portal): agency dashboard for evidence review, traffic rule management, city asset monitoring and traffic analytics
+- [Safe Sense](https://hayden.ai/safe-sense): platform solution for safe city vehicles
+- [Data Chain](https://hayden.ai/data-chain): data handling narrative
+
+## Solutions
+
+- [Solutions overview](https://hayden.ai/solutions)
+- [Bus lane enforcement](https://hayden.ai/solutions/bus-lane)
+- [Bus stop enforcement](https://hayden.ai/solutions/bus-stop)
+- [Bike lane enforcement](https://hayden.ai/solutions/bike-lane)
+- [Double parking](https://hayden.ai/solutions/double-parking)
+- [Tram blocking](https://hayden.ai/solutions/tram-blocking)
+- [Transit buses](https://hayden.ai/applications/transit-buses)
+- [Trams and streetcars](https://hayden.ai/applications/trams)
+
+## Company
+
+- [Company](https://hayden.ai/company)
+- [Blog](https://hayden.ai/blog)
+- [Press releases](https://hayden.ai/press)
+- [Careers](https://hayden.ai/careers)
+- [Contact](https://hayden.ai/contact)
+- [Sustainability](https://hayden.ai/sustainability)
+- [Intellectual property](https://hayden.ai/patent)
+
+## Trust, compliance and legal
+
+- [Compliance](https://hayden.ai/compliance): FCC SDoC, EU Declarations of Conformity, EU RoHS & REACH, WEEE, ACMA, ISED Canada, California Prop 65
+- [SOC 2 Type II certification](https://hayden.ai/blog/hayden-ai-achieves-soc-2-type-ii-security-certification)
+- [Privacy policy](https://hayden.ai/privacy-policy): GDPR, UK GDPR, CCPA/CPRA, EU-US and Swiss-US Data Privacy Framework; privacy contact privacy@hayden.ai
+- [Cookie policy](https://hayden.ai/cookie-policy)
+- [Website terms of service](https://hayden.ai/terms-of-use)
+- [Candidate privacy notice](https://hayden.ai/applicant-privacy)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/hayden-ai/refs/heads/main/apis.yml)
+- [Well-known probe results](https://raw.githubusercontent.com/api-evangelist/hayden-ai/refs/heads/main/well-known/hayden-ai-well-known.yml)
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/hayden-ai/refs/heads/main/conformance/hayden-ai-conformance.yml)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/hayden-ai/refs/heads/main/security/hayden-ai-domain-security.yml)
+- [Packages](https://raw.githubusercontent.com/api-evangelist/hayden-ai/refs/heads/main/packages/hayden-ai-packages.yml)
+
+<!-- generated: 2026-08-04 | method: generated | source: apis.yml + repo artifacts + hayden.ai probes -->
