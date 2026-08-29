@@ -11,6 +11,17 @@ description: 'Hayden AI is a San Francisco based artificial intelligence and spa
   existing violations processing system for citation issuance. Hayden AI publishes
   no public developer program, API documentation, SDK or machine-readable API contract;
   the platform is sold and integrated directly with transit agencies and municipalities.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.sanity.io/images/q6pmksqm/production/bdddb692160a09d5666ec6c13fbfd79f55e2419d-1200x630.png
 url: https://raw.githubusercontent.com/api-evangelist/hayden-ai/refs/heads/main/apis.yml
 x-type: company
