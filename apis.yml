@@ -22,6 +22,18 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://cdn.sanity.io/images/q6pmksqm/production/bdddb692160a09d5666ec6c13fbfd79f55e2419d-1200x630.png
 url: https://raw.githubusercontent.com/api-evangelist/hayden-ai/refs/heads/main/apis.yml
 x-type: company
