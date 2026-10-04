@@ -46,7 +46,7 @@ modified: '2026-08-04'
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Transportation
 - Transit
 - Smart Cities
@@ -65,6 +65,7 @@ tags_raw:
 - Traffic Enforcement
 - Spatial Analytics
 - Mobility
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
